@@ -1,0 +1,108 @@
+\documentclass[10pt,letterpaper]{article}
+\usepackage[left=0.35in,right=0.35in,top=0.3in,bottom=0.3in]{geometry}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=blue,
+    pdftitle={Ahmed M. Sozzer Resume},
+    pdfauthor={Ahmed M. Sozzer},
+}
+\usepackage{enumitem}
+\usepackage{titlesec}
+
+% Custom formatting
+\titleformat{\section}{\normalfont\bfseries}{\thesection}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{5pt}{3pt}
+
+% Remove page numbers
+\pagenumbering{gobble}
+\tolerance=1
+\emergencystretch=\maxdimen
+\hyphenpenalty=10000
+\hbadness=10000
+% Customize itemize environment
+\setlist[itemize]{leftmargin=*, topsep=0pt, itemsep=0pt, parsep=0pt}
+
+\begin{document}
+
+\begin{center}
+  \textbf{\Large AHMED M. SOZZER}\\
+  \smallskip
+   \href{mailto:asozzer2@illinois.edu}{asozzer2@illinois.edu} | \href{http://amsozzer.com}{amsozzer.com} | \href{http://github.com/Amsozzer1}{github.com/Amsozzer1} | \href{http://linkedin.com/in/amsozzer1}{linkedin.com/in/amsozzer1} | US Citizen
+\end{center}
+
+\section*{Education}
+\noindent\textbf{University of Illinois Urbana-Champaign}\\
+\textit{Bachelors in Computer Science} \hfill \textit{May 2025}\\
+% \textbf{Relevant Coursework:} System Programming, Programming Languages \& Compilers, Intro to Algorithms \& Models of Comp, Database Systems, Web Programming, Parallel Programming, Real-Time Systems, Data Structures, Computer Architecture
+\section*{Experience}
+\noindent\textbf{FYCLabs} \hfill \textbf{Remote}\\
+\textit{Full Stack Engineer (Frontend, Backend, CI/CD)} \hfill \textit{May 2025 - Present}
+\begin{itemize}
+  \item Architect and deploy full-stack solutions for early-stage startups, transforming product concepts into production applications using Next.js, React, TypeScript, PostgreSQL with Prisma, and GCP infrastructure
+  \item Develop cross-platform applications using React Native with seamless backend integration, delivering responsive interfaces from Figma designs while managing complete API architecture and database modeling
+  \item Implement automated CI/CD pipelines on GCP with comprehensive testing strategies, reducing deployment cycles by 70\% and maintaining 95\%+ reliability across multiple concurrent client projects
+  \item Engineer custom CRM automation workflows integrated with client backends (GHL, Zoho, HubSpot), reducing manual data operations by 60\% through API-driven synchronization and webhook implementations
+\end{itemize}
+\vspace{1em}
+\noindent\textbf{Holiday Channel} \hfill \textbf{Colorado Springs, CO}\\
+\textit{Full Stack \& iOS Developer} \hfill \textit{Jan 2025 - May 2025}
+\begin{itemize}
+  \item Engineered high-performance e-commerce platform leveraging modern tech stack, delivering 20\% boost in customer retention
+  \item Built resilient microservices infrastructure capable of seamlessly scaling to handle 200\% traffic surges during peak holiday periods
+  \item Executed strategic Google Ads integration while crafting responsive interfaces from Figma designs using Shadcn and Framer motion, increasing conversion rates by 28\%
+  % \item Direct the iOS development team in implementing Swift architecture and Core Data integration for the company's new mobile commerce application, currently in development with anticipated launch in Q2 2025
+\end{itemize}
+\vspace{1em}
+\noindent\textbf{Luminii LLC} \hfill \textbf{Niles, IL}\\
+\textit{Data Analyst and Software Intern} \hfill \textit{May 2024 – Aug 2024}
+\begin{itemize}
+  \item Pioneered an automated pricing system leveraging machine learning to analyze real-time supplier data and adjust component costs, reducing manual re-calibrations by 40\% while optimizing pricing accuracy metrics
+  \item Cross-collaborated within a specialized team to implement advanced machine learning algorithms for comprehensive pricing strategy refinement, yielding 25\% more competitive product pricing in target markets
+  \item Enhanced website responsiveness through strategic implementation of lazy loading techniques, aggressive image compression, and thorough code minification, slashing average page load times by 30\% across all device types
+  \item Reconfigured a 15,000+ record database with strategic indexing, boosting query performance by 65\% and streamlining maintenance through automated data validation protocols
+\end{itemize}
+
+% \noindent\textbf{Center of Excellence at Wilbur Wright College} \hfill \textbf{Chicago, IL}\\
+% \textit{Research Assistant} \hfill \textit{May 2022 – May 2023}
+% \begin{itemize}
+%   \item Spearheaded the engineering of a sophisticated matching algorithm that reduced mentor-mentee mismatch rates from 40\% to 5\%
+%   \item Architected and optimized the backend database system, resulting in a 40\% faster matching process and elevated scalability
+%   \item Conducted in-depth analysis of 100+ survey responses to refine matching criteria and validate algorithm performance
+% \end{itemize}
+\section*{Skills}
+\noindent\textbf{Languages \& Frameworks:} Python, C/C++, JavaScript/TypeScript, Java, React.js, Next.js, Node.js, GraphQL, Django, Express, Haskell, HTML/CSS, RESTful APIs, Vue.js, Angular, Spring Boot, TailwindCSS, React Native, Flutter, Redux, MCP\\
+\textbf{Developer Tools:} Git, Docker, Kubernetes, CI/CD, PostgreSQL, MongoDB, Redis, AWS, Jest, Cypress, Postman, JIRA, Github\\
+\textbf{System \& Cloud:} Linux, Windows, macOS, Microservices Architecture, Serverless Computing, Cloud Infrastructure, DevOps\\
+\textbf{Professional Skills:} Agile Methodology, Technical Leadership, Problem-Solving, Cross-Functional Collaboration, System Design
+\section*{Projects}
+\noindent\textbf{Real-Time Communication Platform} | \href{https://whatsapp-16bff.firebaseapp.com/}{\textit{Link}} | \href{https://github.com/Amsozzer1/Whats_app_clone}{\textit{Front End}} | \href{https://github.com/Amsozzer1/Whats_app_clone_backend}{\textit{Back End}}
+\begin{itemize}[leftmargin=14pt]
+  \item Developed a full-stack Web app featuring real-time messaging with WebSockets, video calling via Stream SDK, and user authentication through Firebase
+  \item Engineered responsive React frontend with custom UI components and implemented Node.js/Express backend handling concurrent WebSocket connections with <100ms latency
+  \item Enhanced cross-browser compatibility for WebRTC video calls and deployed the application on Render cloud platform with 99.9\% uptime
+\end{itemize}
+\vspace{1em}
+\noindent\textbf{NavBus: Real-Time Bus Navigation System} | \href{https://github.com/Amsozzer1/CS409--FINAL}{\textit{Link}}
+\begin{itemize}[leftmargin=14pt]
+  \item Created a real-time bus navigation platform using geospatial analysis to reduce route planning time by 40\% for 200+ users
+  \item Constructed map interface syncing with calendar events, helping 85\% of users save 10+ minutes on daily commutes
+  % \item Optimized Node.js/MongoDB back end, cutting API response times by 30\% while supporting 50+ concurrent users
+\end{itemize}
+
+% \noindent\textbf{FundaFuzion Tutoring Website System} | \href{https://github.com/Amsozzer1/WRIGHT}{\textit{Link}}
+% \begin{itemize}[leftmargin=14pt]
+%   \item Initiated and built a tutoring website framework designed to host college-level STEM resources across 4 core subject areas
+%   \item Architected full-stack solution using AWS and Firebase, achieving 2.5-second average page load time in pre-release testing
+%   \item Designed responsive interface with modular content structure streamlined for future scaling to support 100+ planned lessons
+% \end{itemize}
+
+\section*{Publications \& Presentations}
+\begin{itemize}
+  \item Created research paper on mentor-mentee matching algorithms selected for review by the American Society for Engineering Education (ASEE), with positive feedback from editorial board | \textit{\href{https://peer.asee.org/board-177-work-in-progress-the-development-of-a-research-based-application-for-effective-mentor-mentee-matching.pdf}{Link}}
+  \item Presented mentor-matching research at the 2023 John S. Albazi Student Research Symposium at NEIU | \href{https://neiudc.neiu.edu/srcas/2023/s06/4/}{\textit{Link}}
+  \item Showcased mentor-matching app research at Wright College's Fall 2022 Student Research Colloquium | \href{https://www.ccc.edu/wp-content/uploads/wright_departments_Documents_Honors-at-Wright_Student-Colloquium-Program-Fall-2022.pdf}{\textit{Link}}
+\end{itemize}
+\end{document}
